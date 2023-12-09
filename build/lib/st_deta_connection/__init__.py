@@ -1,1 +1,0 @@
-from st_deta_connection.connections import DetaBaseConnection
