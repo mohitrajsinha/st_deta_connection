@@ -1,0 +1,4 @@
+# requirements.txt
+deta>=1.2.0
+streamlit>=1.29.0
+streamlit-option-menu>=0.3.6
