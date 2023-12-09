@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-with open("st_deta_connection/README.md", "r") as f:
+with open("README.md", "r") as f:
     long_description = f.read()
 
 
@@ -10,6 +10,7 @@ setup(
     description="A Streamlit component to connect to Deta Base and fetch data from it.",
     packages=find_packages(),
     long_description=long_description,
+    url="https://github.com/mohitrajsinha/st_deta_connection",
     long_description_content_type="text/markdown",
     author='Mohit Raj Sinha',
     author_email="mhtrajsinha@gmail.com",

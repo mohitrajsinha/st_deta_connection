@@ -7,6 +7,10 @@
 
 This module provides a Streamlit connection to Deta Base, allowing users to easily fetch and cache data from Deta Base collections in a Streamlit app.
 
+## Prerequisites
+```bash
+pip install -r requirements.txt
+```
 ## Installation
 
 You can install the module using the following pip command:
