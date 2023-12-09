@@ -1,8 +1,0 @@
-setup.py
-st_deta_connection/__init__.py
-st_deta_connection/connections.py
-st_deta_connection.egg-info/PKG-INFO
-st_deta_connection.egg-info/SOURCES.txt
-st_deta_connection.egg-info/dependency_links.txt
-st_deta_connection.egg-info/requires.txt
-st_deta_connection.egg-info/top_level.txt
