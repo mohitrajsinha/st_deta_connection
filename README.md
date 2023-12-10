@@ -1,4 +1,4 @@
-
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 ![st_deta_connections](https://github.com/mohitrajsinha/st_deta_connection/assets/112544299/8ff92d08-f333-41a7-a2ec-7f8daf2d5da8)
 
 # Streamlit Deta Connection Module
