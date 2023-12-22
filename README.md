@@ -22,3 +22,6 @@ You can install the module using the following pip command:
 
 ```bash
 pip install st_deta_connection
+```
+## Example
+Check out the Example [here](https://github.com/mohitrajsinha/st_deta_connection/blob/master/Example/connection_example.py)
