@@ -6,7 +6,7 @@ with open("README.md", "r") as f:
 
 setup(
     name='st_deta_connection',
-    version='0.0.1',
+    version='0.0.2',
     description="A Streamlit component to connect to Deta Base and fetch data from it.",
     packages=find_packages(),
     long_description=long_description,

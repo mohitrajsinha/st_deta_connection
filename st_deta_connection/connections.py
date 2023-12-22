@@ -46,3 +46,21 @@ class DetaBaseConnection(BaseConnection[Deta]):
             return pd.DataFrame(data)
 
         return _query(collection_name, query, **kwargs)
+    
+    def insert(self, collection_name: str, data: dict, **kwargs) -> dict:
+        """
+        Insert data into the Deta Base collection.
+
+        Args:
+            collection_name (str): Name of the collection to insert data into.
+            data (dict): Data to be inserted into the collection.
+            **kwargs: Additional keyword arguments passed to the insert function.
+
+        Returns:
+            dict: Response from the insert operation.
+        """
+        db = self._instance
+        collection = db.Base(collection_name)
+        response = collection.insert(data)
+        return response
+
